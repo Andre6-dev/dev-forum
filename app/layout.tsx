@@ -42,10 +42,7 @@ export default function RootLayout({
             },
           }}
         >
-          <ThemeProvider>
-            <h1 className="h1-bold">Hola texto</h1>
-            {children}
-          </ThemeProvider>
+          <ThemeProvider>{children}</ThemeProvider>
         </ClerkProvider>
       </body>
     </html>
